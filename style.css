@@ -1,0 +1,110 @@
+body{
+	margin: 0;
+	background: url(img/ahorcado.jpg);
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	min-height: 100vh;
+
+}
+
+header{
+	
+	padding: 10px;
+	text-align: center;
+	margin-bottom: 20px;
+
+}
+
+h1{
+	margin: 0;
+	color: rgb(241, 11, 11);
+
+}
+
+main{
+	width: 80%
+	margin 0  auto;
+	padding: 20px;
+	background: rgba(255,255,255,.7);
+	display: flex;
+	gap: 30px;
+};
+
+#imagen{
+
+	height: 250px;
+	width: 294px;
+	left: 573px;
+	top: 503px;
+	border-radius: 8px;
+
+}
+
+#palabra_a_adivinar{
+	height: 5em;
+}
+
+#palabra_a_adivinar span{
+	vertical-align: bottom;
+	font-size: 2em;
+	border-bottom: 2px solid black;
+	width: 40px;
+	text-align: center;
+	margin-right: 6px;
+	display: inline-block; /*sin esto, por ser un elemento de linea no tomaria el witd*/
+
+}
+
+#jugar{
+	padding: 15px 32px;
+	font-size: 15px;
+	text-size-adjust: 200px;
+	position: absolute;
+    bottom: 480;
+    left: 600px;
+	border-radius: 10px;
+	border: 0.5;
+	transition-duration: 0.4s;
+}
+#jugar:hover{
+	background-color: #bbb966; 
+	color: white;
+}
+#terminar{
+	padding: 15px 32px;
+	font-size: 15px;
+	text-size-adjust: 200px;
+	position: absolute;
+    bottom: 480;
+    right: 350px;
+	border-radius: 10px;
+	transition-duration: 0.4s;
+}
+#terminar:hover{
+	background-color: #e6260d; 
+	color: white;
+}
+
+#resultado{
+	width: 200px;
+	text-size-adjust: 200px;
+	position: fixed;
+    bottom: 480;
+    right: 700px;
+	border-radius: 10px;
+}
+
+#letras{
+	margin-top: 80px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px 10px;
+
+}
+
+#letras button{
+	width: 78px;
+	padding: 6px 0;
+	text-align: center;
+	font-size: 20px;
+}
+

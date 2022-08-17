@@ -1,0 +1,63 @@
+#Inicio{
+	background: url(img/ahorcado.jpg)center;
+}
+
+.espacio{
+	padding: 150px;
+	width: 500px;
+	background: rgba(255,255,255,.7);
+	position:absolute;
+	bottom: 135px;
+	right: 260px;
+	text-align: center;
+	
+		
+}
+
+h1{
+	font-family: 'DynaPuff', cursive;
+	font-size: 45px;
+}
+
+
+
+#btn_inicio{
+	transition-duration: 0.4s;
+	width: 200px;
+	text-size-adjust: 200px;
+	position: fixed;
+    bottom: 480;
+    right: 700;
+	border-radius: 10px;
+}
+#btn_inicio:hover{
+	background-color: #5e564f; /* Green */
+	color: white;
+}
+
+#agregar{
+	transition-duration: 0.4s;
+	width: 200px;
+	text-size-adjust: 200px;
+	position: fixed;
+    bottom: 480;
+    right: 450;
+	border-radius: 10px;
+}
+#agregar:hover{
+	background-color: #5e564f; /* Green */
+	color: white;
+}
+
+#incluir{
+	display: none;
+	padding: 150px;
+	width: 500px;
+	background: rgba(100, 143, 179, 0.7);
+	position:absolute;
+	bottom: 135px;
+	right: 260px;
+	text-align: center;
+
+}
+
